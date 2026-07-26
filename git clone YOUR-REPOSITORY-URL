@@ -1,0 +1,88 @@
+# 🔐 Password Strength Checker
+
+A simple Python-based tool that evaluates the strength of a password using basic security rules and provides suggestions for improvement.
+
+This project was created as part of my journey to learn **Python and Cybersecurity fundamentals**.
+
+## 🚀 Features
+
+- Checks password length
+- Detects uppercase letters
+- Detects lowercase letters
+- Checks for numbers
+- Checks for special characters
+- Classifies passwords as:
+  - Weak
+  - Medium
+  - Strong
+- Provides suggestions to improve password strength
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Regular Expressions (`re`)
+- Basic Cybersecurity Concepts
+
+## 📂 Project Structure
+
+    password-strength-checker/
+    ├── password_checker.py
+    ├── README.md
+    └── .gitignore
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+    git clone YOUR-REPOSITORY-URL
+
+### 2. Open the project folder
+
+    cd password-strength-checker
+
+### 3. Run the program
+
+    python password_checker.py
+
+## 💻 Example
+
+    Enter a password to check: Example@12345
+
+    Password Strength: Strong
+
+## 🧠 What I Learned
+
+Through this project, I practiced:
+
+- Python functions
+- Conditional statements
+- Regular expressions
+- User input handling
+- Basic password security concepts
+- Using GitHub for project documentation
+
+## 🔒 Security Note
+
+This project is intended for educational purposes.
+
+Do not enter passwords that you currently use for real accounts. Use dummy passwords while testing the program.
+
+Password strength rules alone cannot guarantee that a password is secure.
+
+## 🔮 Future Improvements
+
+- Detect commonly used passwords
+- Detect repeated characters
+- Add a password strength score
+- Build a graphical user interface
+- Create a web-based version
+
+## 👨‍💻 Author
+
+**Broun Verma**
+
+Recruiter | BCA Student | Cybersecurity Learner
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
